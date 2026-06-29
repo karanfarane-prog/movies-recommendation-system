@@ -1,4 +1,3 @@
-# movies-recommendation-system
 # 🎬 Movie Recommendation System
 
 A **content-based movie recommendation engine** built with Python, Streamlit, and scikit-learn. Find your next favorite movie based on genres, keywords, cast, director, and plot overview.
