@@ -65,7 +65,9 @@ TMDB_API_KEY = "your_api_key_here"
 streamlit run app.py
 
 **📊 How It Works**
-*Recommendation Engine Pipeline*
+
+**Recommendation Engine Pipeline**
+
 1.Data Preprocessing – Merge movies and credits datasets
 
 2.Feature Extraction – Extract genres, keywords, cast, director, overview
