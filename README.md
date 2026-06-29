@@ -8,6 +8,11 @@ A **content-based movie recommendation engine** built with Python, Streamlit, an
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 ---
+## Live Demo
+[https://movies-recommendation-system-jaqstj4zqx7mu5mk8pgdbu.streamlit.app/](https://movies-recommendation-system-jaqstj4zqx7mu5mk8pgdbu.streamlit.app/)
+
+## GitHub Repository
+[https://github.com/your-username/movies-recommendation-system](https://github.com/karanfarane-prog/movies-recommendation-system)
 
 ## 📌 Features
 
