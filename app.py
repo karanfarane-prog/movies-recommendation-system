@@ -56,7 +56,7 @@ def load_data():
 
     try:
         movies = pd.read_csv("tmdb_5000_movies.csv")
-        credits = pd.read_csv("tmdb_5000_credits.csv")
+        credits = pd.read_csv("tmdb_5000_credits.csv.zip")
     except FileNotFoundError as e:
         st.error(
             f"Couldn't find a required data file ({e.filename}). "
