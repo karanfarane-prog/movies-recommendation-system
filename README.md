@@ -46,7 +46,6 @@ A **content-based movie recommendation engine** built with Python, Streamlit, an
 - TMDB API Key (free from [TMDB](https://www.themoviedb.org/signup))
 
 ### Setup Instructions
-
 1. **Clone the repository**
 git clone https://github.com/your-username/movie-recommendation-system.git
 cd movie-recommendation-system
@@ -64,3 +63,35 @@ TMDB_API_KEY = "your_api_key_here"
 
 5.**Run the app**
 streamlit run app.py
+
+📊 How It Works
+Recommendation Engine Pipeline
+1.Data Preprocessing – Merge movies and credits datasets
+
+2.Feature Extraction – Extract genres, keywords, cast, director, overview
+
+3.Tag Building – Combine all features into a single tag string
+
+4.Vectorization – Convert tags to TF-IDF vectors (5000 features)
+
+5.Similarity Calculation – Compute cosine similarity matrix (4806 x 4806)
+
+6.Recommendation – Find top 5 most similar movies
+
+📁 Project Structure
+movie-recommendation-system/
+│
+├── app.py                         # Main Streamlit application
+├── recommend.py                   # Recommendation logic
+├── requirements.txt               # Python dependencies
+├── .gitignore                     # Ignored files
+│
+├── tmdb_5000_movies.csv           # Movie dataset (4803 movies)
+├── tmdb_5000_credits.csv          # Credits dataset
+│
+├── module.ipynb                   # Jupyter notebook (development)
+│
+├── .streamlit/
+│   └── secrets.toml               # API keys (DO NOT upload!)
+│
+└── README.md                      # Documentation
